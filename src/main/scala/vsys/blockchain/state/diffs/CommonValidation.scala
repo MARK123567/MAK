@@ -103,5 +103,3 @@ object CommonValidation {
     } else Right(tx)
   }
 }
-
-
