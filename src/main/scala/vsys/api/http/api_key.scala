@@ -15,4 +15,3 @@ final class api_key(val key: String) extends ModeledCustomHeader[api_key] {
   override def renderInRequests = true
   override def renderInResponses = false
 }
-
