@@ -131,4 +131,3 @@ object AssertOpcDiff extends OpcDiffer {
       case _ => Left(ContractInvalidOPCData)
     }
 }
-
