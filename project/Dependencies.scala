@@ -1,6 +1,5 @@
 import sbt._
 
-
 object Dependencies {
 
   def akkaModule(module: String) = "com.typesafe.akka" %% s"akka-$module" % "2.5.14"
