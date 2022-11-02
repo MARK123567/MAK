@@ -16,3 +16,4 @@ class DistributedRandomGenerator[T](probabilities: Map[T, Float]) {
     }.flatMap(_.last._2).get
   }
 }
+
