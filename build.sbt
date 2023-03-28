@@ -114,6 +114,7 @@ commands += Command.command("packageAll") { state =>
   state
 }
 
+
 inConfig(Linux)(Seq(
   maintainer := "v.systems",
   packageSummary := "mak full node",
