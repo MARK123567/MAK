@@ -9,4 +9,3 @@ echo Options: $VSYS_OPTS
 
 #java -Dvsys.network.declared-address=$VSYS_NET_IP:$VSYS_PORT $VSYS_OPTS -jar /opt/mak/mak.jar /opt/mak/template.conf
 java -Dvsys.network.declared-address=$DEFAULT_NET_IP:9923 $VSYS_OPTS -jar /opt/mak/mak.jar /opt/mak/template.
-
